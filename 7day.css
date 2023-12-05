@@ -1,0 +1,40 @@
+mathavi{
+    background-color: yellow;
+    flex: 1;
+    order: 2;
+}
+.str{
+    background-color: purple;
+    flex: 2;
+    order: 3;
+}
+.prasath{
+    background-color: aqua;
+    flex: 1;
+    order: 1;
+}
+
+.akhila{
+    display: flex;
+}  
+.sri{
+    background-color:beige;
+    height: 500px;
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    /* flex-direction: column; */
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.c1{
+    background-color: blue;
+    height: 80px;
+    width: 200px;
+    border: 2px solid white;
+}  

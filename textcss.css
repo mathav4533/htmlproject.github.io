@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(235, 230, 240);
+}
+
+#name{
+text-align: center;
+text-decoration:underline;
+font-size:40px;
+text-shadow: 6px 2px 5px violet;
+font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    text-align: center;
+    text-decoration: overline;
+    font-style: italic;
+    letter-spacing: 10px;
+}
+
+h6{
+    border: 2px solid black;
+    word-spacing: 15px;
+    text-indent: 50px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align:justify;
+    margin: 20px;
+    padding: 20px;
+    border-width:5px;
+    border-style: solid ;
+    border-color: rgb(241, 12, 50);
+    width: 50%;
+}
+
+h6::first-letter{
+    font-size: 40px;
+a:hover{
+    color: rgb(16, 252, 16);
+}
+
+a:focus{
+    color:rgb(245, 245, 10);
+}
